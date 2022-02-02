@@ -21,7 +21,7 @@ mongoose
   .catch((err) => console.log(err));
 
 // Routes
-app.use("/api/test", require("./routes/test"));
+app.use("/api/user", require("./routes/user"));
 
 if (process.env.NODE_ENV == "production") {
   // Serve any static files
